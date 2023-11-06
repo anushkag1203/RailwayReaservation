@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginPage</title>
+    <link rel="stylesheet" href="RailwayLoginPagecss.css">
+</head>
+
+<body>
+    <div id="header">
+        <h1> &nbsp; Train Reservation System</h1>
+    </div>
+    <div id="Menubar">
+        <div class="options"><a href="Home.html">Home</a></div>
+        <div class="options"><a href="Traindisplay.jsp">Train</a></div>
+        <div class="options"><a href="RailwayLoginPage.html">Login</a></div>
+        <div class="options"><a href="RailwaySignUpPage.html">Sign Up</a></div>
+        <div class="options"><a href="RailwayaboutUspage.html">About us</a></div>
+        <div class="options"><a href="RailwayContactUs.html">Contact us</a></div>
+    </div>
+    <!-- ----------------------------------Login photo + login details------------------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Image/train2.webp" alt="LoginPage" style="height: 500px; width: 700px; border-radius: 10px;">
+                </div>
+                <div class="about-col-2 boxcreation">
+                    <h2 style="font: 40px sans-serif; font-weight: bold;">Login</h2>
+                    <p style="margin: 10px 0;">To have Good experience please login in. If there is no account created direct to the signup page
+                        and register there.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('User')">User Login</p>
+                    </div>
+                     <form action="login.jsp" method="post">
+                        <div class="tab-contents active-tab" id="User">
+                            <ul>
+                                <li>
+                                    <p>
+                                        <label class="size"> Username</label>
+                                        <br>
+                                        <input class="size"  name="username" type="text" style="border-radius: 5px;">
+                                    </p>
+                                    <br>
+                                </li>
+                                <li>
+                                    <p>
+                                        <label class="size">Password</label>
+                                        <br>
+                                        <input class="size" name="password" type="password" style="border-radius: 5px;" required>
+                                    </p>
+                                    <br>
+                                </li>
+                                <br>
+                                <p><button class="button button1" style="font-weight: bold;" type="submit">Login</button></p>
+                            </ul>
+                            </div>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <footer>
+    <div class="bottom">
+        &copy; 2023 Train Reservation System. All rights reserved.
+    </div>
+</footer>
+
+</body>
+
+</html>

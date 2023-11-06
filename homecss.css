@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' , sans-serif;
+    box-sizing: border-box;
+}
+
+#header{
+    height: 60px;
+	width : 100%;
+	background-color: rgb(3, 99, 94);
+	font-size: 20px;
+	text-align: left;
+	align-items: center;
+    padding: 10px;
+	display: flex;
+    position: fixed;
+    overflow: hidden;
+    text-decoration: none;
+    opacity: 100%;
+    z-index: 1000;
+}
+h1{
+    color: #ffffff;
+    align-items: center;
+    size: 10px;
+}
+#Menubar{
+    margin-top: 60px;
+    height: 50px;
+	width: 100%;
+	background-color : rgb(5, 88, 72);
+	display: flex;
+	align-items: center;
+	position: sticky;
+    justify-content:center;
+	text-align: center;
+    position: fixed;
+    background-color: rgb(5,88,72);
+    /* overflow: hidden; */
+    z-index: 1000;
+    
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.options{
+    color: whitesmoke;
+    font-size: 20px;
+	padding-left:5%;/*Decides the gap between options provided*/
+}
+.options a:hover{
+    background-color: rgb(12, 146, 95);
+    color: #ffffff;
+    
+}
+/*
+img{
+    margin-top:100px ;
+    height: 650px; 
+    width: 100%;
+    opacity: 80%;
+    position: fixed;
+}
+.container {
+    position: fixed;
+    text-align: center;
+    color: white;
+}
+.centeredright{
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    transform: translate(300%, 50%);
+    text-shadow: 4px 4px black;
+    color: white;
+    text-align: left;
+    font-size: 60px; /* Adjust the font size as needed */
+    /* z-index: 1000; s Ensure the text appears above the image */
+	/* display: block; */
+    /*overflow-x: hidden; 
+} 
+*/
+
+.home {
+    padding-top: 100px;
+    background-image: url("Image/TrainHome1.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(90vh - 5px);
+    text-align: center;
+
+}
+
+.welcome {
+    position: absolute;
+    background-color: rgb(30, 82, 77);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    animation: text-fade 2s infinite alternate;
+}
+
+.welcome h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+@keyframes text-fade {
+    0% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.bottom {
+    background-color: rgb(2, 104, 84);
+    height: 40px;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+}
+

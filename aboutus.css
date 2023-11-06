@@ -1,0 +1,131 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1303px;
+}
+
+#header {
+    height: 60px;
+    width: 116%;
+    background-color: rgb(3, 99, 94);
+    font-size: 20px;
+    text-align: left;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    overflow: hidden;
+    text-decoration: none;
+    opacity: 100%;
+    z-index: 1000;
+}
+
+h1 {
+    color: #ffffff;
+    align-items: center;
+    size: 10px;
+}
+
+#Menubar {
+    height: 40px;
+    width: 116%;
+    background-color: rgb(5, 88, 72);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(5, 88, 72);
+    overflow: hidden;
+    z-index: 1000;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.options {
+    color: whitesmoke;
+    font-size: 20px;
+    padding-left: 5%;
+}
+
+.options a:hover {
+    background-color: black;
+    color: #ffffff;
+}
+
+.about-us-content {
+    text-align: center;
+    width: 113%;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+.about-us-content h2 {
+    font-size: 36px;
+    color: #0c8983;
+}
+
+.about-us-content p {
+    font-size: 18px;
+    margin: 20px 0;
+    color: #333;
+}
+
+.about-us-content ul {
+    text-align: left;
+    list-style: none;
+}
+
+.about-us-content ul li {
+    font-size: 16px;
+    margin: 10px 0;
+    position: relative;
+    padding-left: 30px;
+}
+
+.about-us-content ul li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #0c8983;
+    font-weight: bold;
+}
+
+.small-content {
+    padding: 20px;
+    width: 113%;
+}
+
+video {
+    background-color: black;
+}
+
+.about-us-image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about-us-image img,
+.about-us-image iframe {
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+}
+
+.media {
+	
+	padding-left: 30%;
+    display: flex;
+
+}

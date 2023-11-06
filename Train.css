@@ -1,0 +1,39 @@
+body{
+	background-image: url("Image/finalneelam.jpg");
+	/*background-position: -80px 0px;  */
+	color: white;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+h1{
+	padding: 20px;
+	background-color: rgb(38, 89, 89);
+}
+table{
+    background-color:rgb(255, 255, 255);
+    width:80%;
+    font-size: 22px;
+    border-radius: 10px;
+    margin-top:50px;
+    margin-bottom:25px;
+ }
+ th{
+	 background-color: rgb(9, 117, 164);
+ }
+ table,th,td{
+	border:1.5px solid;
+	border-collapse:collapse;
+}
+th, td {
+    padding: 8px;
+    border-bottom: 1px solid #0a0909;
+    color: black;
+}
+tr:hover{
+	background-color:rgba(0,0,0,0.2);
+}
+button{
+	margin-left: 20%;
+	background-color: white;
+	color: black;
+}

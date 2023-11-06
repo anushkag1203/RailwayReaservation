@@ -1,0 +1,100 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins' , sans-serif;
+}
+
+body{
+background-size: 100%;
+/*background-position: -80px 0px;  */
+color: rgb(0, 0, 0); 
+background-color: rgb(232, 247, 255);
+}
+
+h1{
+	padding: 20px;
+	background-color: rgb(89, 193, 183);
+}
+.trainhearder{
+	background-size: 70%;
+	background-color: rgb(153, 230, 206);
+	padding-left: 10px;
+	text-align: left;
+	height: 60px;
+	width: 100%;
+	color: black;
+	border:1px black solid;
+	padding-top: 10px;
+}
+.details{
+	flex: 1;
+  	display: flex;
+	flex-direction: row;
+	font-weight: 20px;
+	padding-top: 5px;
+}
+.info{
+	background-size: 70%;
+	background-color:  rgb(219, 242, 230);
+	height: 50px;
+	width: 101.1%;
+	color: black;
+	flex: 1;
+  	display: flex;
+	font-weight: bolder;
+	border:1px black solid
+}
+p{
+	font-weight: bolder;
+}
+.info_Seats{
+	background-size: 70%;
+	background-color:  rgb(219, 242, 230);
+	height: 50px;
+	width: 100%;
+	color: black;
+	flex: 1;
+  	display: flex;
+	flex-direction: row;
+	font-weight: bolder;
+	justify-content: space-evenly;
+}
+button{
+	background-color: rgb(206, 243, 255);
+	color: black;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+	margin-left: 900px;
+	height: 30px;
+	width:100px;
+	border-radius: 5px;
+}
+button:hover{
+	background-color:  rgb(0, 69, 91);
+	color: white;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+	margin-left: 900px;
+	height: 30px;
+	width:100px;
+	border-radius: 5px;
+}
+.info2{
+	background-size: 70%;
+	background-color:  rgb(232, 247, 239);
+	height: 50px;
+	width: 101.1%;
+	color: black;
+	flex: 1;
+  	display: flex;
+	border:1px black solid
+}
+.info2 .details p{
+	margin-top: -0.5%;
+}
+.info .details p{
+	margin-top: -0.1%;
+}
